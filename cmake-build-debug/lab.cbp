@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lab"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab">
+				<Option output="/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/lab" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lzc/Workspace/Course/6.828/lab/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab/fast">
+				<Option output="/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/lab" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lzc/Workspace/Course/6.828/lab/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lzc/Workspace/Course/6.828/lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/boot/main.c">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/fs/test.c">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/inc/assert.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/inc/elf.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/inc/error.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/inc/kbdreg.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/inc/memlayout.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/inc/mmu.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/inc/stab.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/inc/stdarg.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/inc/stdio.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/inc/string.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/inc/types.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/inc/x86.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/kern/console.c">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/kern/console.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/kern/entrypgdir.c">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/kern/init.c">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/kern/kclock.c">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/kern/kclock.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/kern/kdebug.c">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/kern/kdebug.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/kern/monitor.c">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/kern/monitor.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/kern/pmap.c">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/kern/pmap.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/kern/printf.c">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/lib/printfmt.c">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/lib/readline.c">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/lib/string.c">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/user/sendpage.c">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/lzc/Workspace/Course/6.828/lab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

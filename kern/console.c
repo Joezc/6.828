@@ -452,6 +452,9 @@ cons_init(void)
 
 // `High'-level console I/O.  Used by readline and cprintf.
 
+/**
+ * output a char to the terminal
+ */
 void
 cputchar(int c)
 {
