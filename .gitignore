@@ -16,3 +16,7 @@
 /sol?/
 /myapi.key
 /__pycache__/
+
+/cmake-build-debug/
+/.idea/
+CMakeLists.txt
